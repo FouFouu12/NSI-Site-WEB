@@ -13,6 +13,17 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgba(91, 91, 91, 0.413);
 }
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container notre-equipe {
+    margin: 0 50px;
+}
+.button-container sept-familles {
+    margin: 0 50px;
+}
 .notre-equipe {
     transition-duration: 0.4s;
     background-color: #04AA6D; /* vert */
