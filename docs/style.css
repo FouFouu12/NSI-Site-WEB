@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    vertical-align: middle;
 }
 #titre {
     text-align: center;
@@ -15,7 +14,7 @@ body {
 .button-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    place-item: center;
 }
 .notre-equipe {
     transition-duration: 0.4s;
