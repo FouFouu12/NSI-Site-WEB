@@ -10,13 +10,14 @@ body {
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgba(91, 91, 91, 0.413);
+    backdrop-filter: blur(5px);
 }
 .button-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 .notre-equipe {
     transition-duration: 0.4s;
