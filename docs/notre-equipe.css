@@ -12,8 +12,8 @@ h1 {
   background-color: rgba(91, 91, 91, 0.413);
 }
 #retour {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  bottom: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
 }
