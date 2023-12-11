@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(10px);
+    vertical-align: middle;
 }
 #titre {
     text-align: center;
@@ -33,7 +34,6 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    align-items: 33%;
 }
 .notre-equipe:hover {
     background-color: #FFFFFF; /* blanc */
@@ -49,7 +49,6 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    align-items: 66%;
 }
 .sept-familles:hover {
     background-color: #FFFFFF; /* blanc */
