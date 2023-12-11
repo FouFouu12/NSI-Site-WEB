@@ -7,3 +7,19 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgba(91, 91, 91, 0.413);
 }
+#notre-equipe {
+    transition-duration: 0.4s;
+    background-color: #04AA6D; /* vert */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+#notre-equipe:hover {
+    background-color: #FFFFFF; /* blanc */
+    color: #04AA6D;
+}
