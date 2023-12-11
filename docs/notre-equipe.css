@@ -1,1 +1,13 @@
-
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: "Courier New", Monaco, serif;
+  background-color: rgba(91, 91, 91, 0.413);
+}
+#retour {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  bottom: 0px;
+}
