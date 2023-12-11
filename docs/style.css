@@ -18,12 +18,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.button-container notre-equipe {
-    margin: 0 50px;
-}
-.button-container sept-familles {
-    margin: 0 50px;
-}
 .notre-equipe {
     transition-duration: 0.4s;
     background-color: #04AA6D; /* vert */
@@ -34,6 +28,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
+    margin: 10px;
 }
 .notre-equipe:hover {
     background-color: #FFFFFF; /* blanc */
@@ -49,6 +44,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
+    margin: 10px;
 }
 .sept-familles:hover {
     background-color: #FFFFFF; /* blanc */
