@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    background: rgba(100, 149, 237, 0.5);
 }
 #titre {
     text-align: center;
