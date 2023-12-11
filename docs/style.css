@@ -14,7 +14,8 @@ body {
 .button-container{
     display: flex;
     justify-content: center;
-    place-item: center;
+    align-items: center;
+    height: 100vh;
 }
 .notre-equipe {
     transition-duration: 0.4s;
