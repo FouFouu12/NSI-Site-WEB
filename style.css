@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(131, 149, 53, 0.413);
+}
+#titre {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(91, 91, 91, 0.413);
+}
