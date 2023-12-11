@@ -27,7 +27,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    left: 33%;
+    transform: translate(-50%);
 }
 .notre-equipe:hover {
     background-color: #FFFFFF; /* blanc */
@@ -42,8 +42,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
-    right: 33%;
+    transform: translate(50%);
 }
 .sept-familles:hover {
     background-color: #FFFFFF; /* blanc */
