@@ -10,7 +10,6 @@ body {
 .notre-equipe {
     transition-duration: 0.4s;
     background-color: #04AA6D; /* vert */
-    border: none;
     border-radius: 12px;
     color: white;
     padding: 15px 32px;
