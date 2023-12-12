@@ -17,7 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    backdrop-filter: blur(5px);
 }
 .notre-equipe {
     transition-duration: 0.4s;
