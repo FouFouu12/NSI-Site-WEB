@@ -19,36 +19,99 @@ body {
     height: 100vh;
 }
 .notre-equipe {
-    transition-duration: 0.4s;
-    background-color: #04AA6D; /* vert */
-    border-radius: 12px;
-    color: white;
-    padding: 15px 32px;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    height: 60px;
+    width: 200px;
+    transform: translate(-50%,-50%);
+    font-family: arial black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    transform: translate(-50%);
-    box-shadow:0 10px 10px 0 #04AA6D ;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(5deg, #c42c2c, #ff7878);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+    }
+    
+.notre-equipe:hover{
+    color: #fff;
+    text-decoration: none;
+    animation: animate 8s linear infinite;
 }
-.notre-equipe:hover {
-    background-color: #FFFFFF; /* blanc */
-    color: #04AA6D;
+    
+.notre-equipe:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #c60606,#ff6767);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: 0.5s;
 }
+    
+.notre-equipe:hover:before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
 .sept-familles {
-    transition-duration: 0.4s;
-    background-color: #E6421E; /* rouge */
-    border-radius: 12px;
-    color: white;
-    padding: 15px 32px;
+    position: absolute;
+    top: 50%;
+    right: 33%;
+    height: 60px;
+    width: 200px;
+    transform: translate(50%,-50%);
+    font-family: arial black;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    transform: translate(50%);
-    box-shadow:0 10px 10px 0 #E6421E ;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: linear-gradient(5deg, #1ea372, #7affce);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+    }
+    
+.sept-familles:hover{
+    color: #fff;
+    text-decoration: none;
+    animation: animate 8s linear infinite;
 }
-.sept-familles:hover {
-    background-color: #FFFFFF; /* blanc */
-    color: #E6421E;
+    
+.sept-familles:before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #1ea372, #7affce);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: 0.5s;
+}
+    
+.sept-familles:hover:before{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
 }
