@@ -12,9 +12,9 @@ h1 {
   font-family: "Courier New", Monaco, serif;
   background-color: rgba(91, 91, 91, 0.413);
 }
-a {
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
+.retour {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
 }
