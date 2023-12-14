@@ -10,11 +10,11 @@ h1 {
   color: white;
   font-size: 35px;
   font-family: "Courier New", Monaco, serif;
-  background-color: rgba(91, 91, 91, 0.413);
+  background-color: rgba(148, 134, 89, 0.345);
 }
 .retour {
   position: fixed;
   text-align: center;
-  width: 100%;
-  bottom: 0;
+  right: 250px;
+  bottom: 0px;
 }
