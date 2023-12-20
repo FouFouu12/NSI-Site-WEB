@@ -1,0 +1,20 @@
+body {
+    background-image: url('notre-equipe.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: "Courier New", Monaco, serif;
+  background-color: rgba(148, 134, 89, 0.345);
+}
+.retour {
+  position: fixed;
+  text-align: center;
+  right: 250px;
+  bottom: 0px;
+}
