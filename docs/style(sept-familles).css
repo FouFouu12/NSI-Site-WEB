@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+.familles_haut{
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+#machines{
+    transform: translate(-60px);
+    text-decoration: none;    
+    width: 175px;
+}
+#Mathematiques{
+    transform: translate(-20px);
+    width: 175px;
+}
+#Algorithmes{
+    transform: translate(20px);
+    width: 175px;
+}
+#IA{
+    transform: translate(60px);
+    width: 175px;
+}
+
+.familles_bas{
+    position: relative;
+    text-align: center;
+    top: 71px;
+}
+#interaction{
+    transform: translate(-40px);    
+    width: 175px;
+}
+#systemes{
+    width: 175px;
+}
+#securite{
+    transform: translate(40px);
+    width: 175px;
+}
+.turing{
+    position: relative;
+    text-align: center;
+    top:150px ;
+}
+#turing{
+
+    width: 175px;
+}
