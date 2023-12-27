@@ -13,8 +13,8 @@ h1 {
   background-color: rgba(148, 134, 89, 0.345);
 }
 .retour {
-  position: fixed;
-  text-align: center;
-  right: 250px;
+  position: absolute;
+  left: 50%;
   bottom: 0px;
+  transform: translate(-50%);
 }
