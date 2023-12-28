@@ -11,7 +11,7 @@ h1{
 .familles_haut{
     position: relative;
     text-align: center;
-    top: 60px;
+    top: 95px;
 }
 #machines{
     transform: translate(-60px);
@@ -34,7 +34,7 @@ h1{
 .familles_bas{
     position: relative;
     text-align: center;
-    top: 71px;
+    top: 100px;
 }
 #interaction{
     transform: translate(-40px);    
@@ -50,12 +50,17 @@ h1{
 .turing{
     position: relative;
     text-align: center;
-    top:150px ;
+    top:100px ;
 }
 #turing{
     width: 175px;
 }
-
+#lutin{
+    position: absolute;
+    left: 10%;
+    bottom: 10px;
+    transform: translate(-50%);
+}
 
 
 #overlay {
