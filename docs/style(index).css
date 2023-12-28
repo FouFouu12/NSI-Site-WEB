@@ -40,7 +40,6 @@ body {
     }
     
 #notre-equipe:hover{
-    color: #fff;
     text-decoration: none;
     animation: animate 8s linear infinite;
 }
