@@ -17,14 +17,20 @@ h1{
     transform: translate(-60px);
     width: 175px;
     position: relative;
+    transition: box-shadow 0.3s ease-in-out;
 }
-
+#machines:hover {
+    cursor:pointer;
+    box-shadow: 0 0 30px 10px rgba(166, 150, 10, 10);
+}
 #Mathematiques{
     transform: translate(-20px);
     width: 175px;
+    transition: box-shadow 0.3s ease-in-out;
 }
 #Mathematiques:hover{
     cursor: pointer;
+    box-shadow: 0 0 30px 10px rgba(166, 150, 10, 10);
 }
 #Algorithmes{
     transform: translate(20px);
@@ -56,8 +62,29 @@ h1{
     text-align: center;
     top:100px ;
 }
+
 #turing{
+    position: absolute;
     width: 175px;
+    border-radius: 50%;
+    z-index: 20;
+    transform: translate(-50%);
+    pointer-events: none;
+}
+#shadowturing{
+    position:absolute;
+    left: 50%;
+    top:17.5px;
+    transform: translate(-50%);
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+    background-color:blue;
+    z-index: 1;
+    transition: box-shadow 0.3s ease-in-out;
+}
+#shadowturing:hover{
+    box-shadow: 0 0 30px 20px rgb(203, 191, 98);
 }
 #lutin{
     position: absolute;
