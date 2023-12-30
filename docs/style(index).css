@@ -4,6 +4,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+    overflow-y: hidden;
+    
 }
 #titre {
     text-align: center;

@@ -2,7 +2,7 @@ body {
     background-image: url('sept-familles.webp');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-attachment: fixed;
 }
 h1{
@@ -17,7 +17,7 @@ h1{
     transform: translate(-60px);
     width: 175px;
     position: relative;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 }
 #machines:hover {
     cursor:pointer;
@@ -26,7 +26,7 @@ h1{
 #Mathematiques{
     transform: translate(-20px);
     width: 175px;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 }
 #Mathematiques:hover{
     cursor: pointer;
@@ -81,10 +81,11 @@ h1{
     border-radius: 50%;
     background-color: transparent;
     z-index: 1;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 }
 #shadowturing:hover{
-    box-shadow: 0 0 30px 20px rgb(203, 191, 98);
+    box-shadow: 0 0 30px 20px rgba(166, 150, 10, 10);
+    cursor: pointer;
 }
 #lutin{
     position: absolute;
@@ -94,7 +95,7 @@ h1{
 }
 
 
-#overlay {
+#overlay_popup{
     display: none;
     position: absolute;
     top: 0;
