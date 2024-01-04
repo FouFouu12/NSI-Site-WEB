@@ -2,7 +2,7 @@ body{
     background-image: url('../images/famille_1.webp');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     height: 100%;
     overflow-y:inherit;
@@ -14,7 +14,18 @@ body{
 }
 .popupcontent {
     padding: 10px;
+}
+.popupcontent_title{
     text-align: center;
+}
+.popupcontent_paragraph{
+    padding: 20px;
+    text-align: justify;
+}
+.popupcontent_link{
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
 }
 .machines_et_composants {
     cursor: pointer;
@@ -33,14 +44,30 @@ body{
 }
 .machines_et_composants{
     position: absolute;
-    right:0
 }
 #charles{
-    top:200px;
-    left:30%;
+    top:27%;
+    left:28%;
 }
 #john{
-    
+    top:33%;
+    left:24%
+}
+#hedy{
+    top:39%;
+    left: 20%;
+}
+#seymour{
+    top:27%;
+    right:28%;
+}
+#gordon{
+    top:33%;
+    right:24%
+}
+#hiroshi{
+    top:39%;
+    right:20%
 }
 #popup_charles {
     display: none;
@@ -58,7 +85,6 @@ body{
 
 #popupclose_charles {
     position: absolute;
-    float: right;
     padding: 10px;
     cursor:pointer;
     right:4%;
@@ -67,7 +93,6 @@ body{
     color: red;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 50%;
-    position: center center;
 }
 #popup_john {
     display: none;
