@@ -10,20 +10,38 @@ body{
 #retour{
     position: absolute;
     left: 3%;
-    bottom: 5%;
+    bottom:5%;
+}
+.popupcontent {
+    padding: 10px;
+    text-align: center;
+}
+.machines_et_composants {
+    cursor: pointer;
 }
 #overlay {
     display: none;
     position: absolute;
     top: 0;
-    bottom: 0;
-    background: #999;
+    left:0;
+    filter: blur(10px);
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 100%;
     opacity: 0.8;
     z-index: 100;
 }
-
+.machines_et_composants{
+    position: absolute;
+    right:0
+}
+#charles{
+    top:200px;
+    left:30%;
+}
+#john{
+    
+}
 #popup_charles {
     display: none;
     position: absolute;
@@ -32,24 +50,24 @@ body{
     background: #fff;
     width: 500px;
     height: 500px;
-    margin-left: -250px; /*Half the value of width to center div*/
-    margin-top: -250px; /*Half the value of height to center div*/
+    margin-left: -250px;
+    margin-top: -250px; 
     z-index: 200;
+    border-radius: 10%;
 }
 
 #popupclose_charles {
-    position: relative;
+    position: absolute;
     float: right;
     padding: 10px;
-    cursor:pointer
-}
-
-.popupcontent {
-    padding: 10px;
-    text-align: center;
-}
-.machines_et_composants {
-    cursor: pointer;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
 }
 #popup_john {
     display: none;
@@ -59,13 +77,125 @@ body{
     background: #fff;
     width: 500px;
     height: 500px;
-    margin-left: -250px; /*Half the value of width to center div*/
-    margin-top: -250px; /*Half the value of height to center div*/
+    margin-left: -250px;
+    margin-top: -250px; 
     z-index: 200;
+    border-radius: 10%;
 }
 #popupclose_john {
-    position: relative;
+    position: absolute;
     float: right;
     padding: 10px;
-    cursor:pointer
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
+}
+#popup_hedy{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+    border-radius: 10%;
+}
+#popupclose_hedy {
+    position: absolute;
+    float: right;
+    padding: 10px;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
+}
+#popup_seymour{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+    border-radius: 10%;
+}
+#popupclose_seymour {
+    position: absolute;
+    float: right;
+    padding: 10px;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
+}
+#popup_gordon{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+    border-radius: 10%;
+}
+#popupclose_gordon {
+    position: absolute;
+    float: right;
+    padding: 10px;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
+}
+#popup_hiroshi{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+    border-radius: 10%;
+}
+#popupclose_hiroshi {
+    position: absolute;
+    float: right;
+    padding: 10px;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
 }

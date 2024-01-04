@@ -2,11 +2,14 @@ body {
     background-image: url('../images/sept-familles.webp');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100% 100%;
     background-attachment: fixed;
 }
-h1{
-    text-align: center;
+p{
+    text-align: justify;
+    background-color: rgba(240, 255, 255, 0.1);
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .familles_haut{
     position: relative;
