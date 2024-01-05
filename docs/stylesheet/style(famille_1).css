@@ -22,11 +22,6 @@ body{
     padding: 20px;
     text-align: justify;
 }
-.popupcontent_link{
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
-}
 .machines_et_composants {
     cursor: pointer;
 }
@@ -41,6 +36,35 @@ body{
     height: 100%;
     opacity: 0.8;
     z-index: 100;
+}
+.link{
+    display: none;
+}
+#source_charles{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+#source_charles:hover{
+    text-align: center;
+    font-size: medium;
+    padding:20px
+}
+#source_charles:hover a{
+    display: inline;
+}
+#source_john{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+#source_john:hover{
+    text-align: center;
+    font-size: medium;
+    padding:20px
+}
+#source_john:hover a{
+    display: inline;
 }
 .machines_et_composants{
     position: absolute;
