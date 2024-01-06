@@ -8,8 +8,9 @@ body{
 }
 #retour{
     position: absolute;
-    left: 3%;
-    bottom:5%;
+    left: 6%;
+    bottom: 10px;
+    transform: translate(-50%);
 }
 .mathematiques_et_informatique{
     position: absolute;
@@ -118,28 +119,28 @@ body{
     position: absolute;
 }
 #hypathie{
-    top:27%;
-    left:28%;
+    top:45%;
+    left:40%;
 }
 #georges{
-    top:33%;
-    left:24%
+    top:48%;
+    left:17%
 }
 #jacques{
-    top:39%;
-    left: 20%;
+    top: 52%;
+    left: 9%;
 }
 #ingrid{
-    top:27%;
-    right:28%;
+    top:45%;
+    right:40%;
 }
 #jocelyne{
-    top:33%;
-    right:24%
+    top:48%;
+    right:17%
 }
 #alonzo{
-    top:39%;
-    right:20%
+    top: 52%;
+    right: 9%
 }
 #popup_hypathie {
     display: none;

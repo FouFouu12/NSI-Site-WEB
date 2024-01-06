@@ -8,8 +8,9 @@ body{
 }
 #retour{
     position: absolute;
-    left: 3%;
-    bottom:5%;
+    left: 6%;
+    bottom: 10px;
+    transform: translate(-50%);
 }
 .popupcontent {
     padding: 10px;
