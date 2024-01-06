@@ -1,5 +1,5 @@
 body{
-    background-image: url('../images/famille_1.webp');
+    background-image: url("../images/famille_2.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -11,6 +11,12 @@ body{
     left: 3%;
     bottom:5%;
 }
+.mathematiques_et_informatique{
+    position: absolute;
+    width: 71px;
+    height: 71px;
+    cursor: pointer;
+}
 .popupcontent {
     padding: 10px;
 }
@@ -20,11 +26,6 @@ body{
 .popupcontent_paragraph{
     padding: 20px;
     text-align: justify;
-}
-.machines_et_composants {
-    cursor: pointer;
-    width:71px;
-    height:71px;
 }
 #overlay {
     display: none;
@@ -41,106 +42,106 @@ body{
 .link{
     display: none;
 }
-#source_charles{
+#source_hypathie{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_charles:hover{
+#source_hypathie:hover{
     font-size: medium;
     padding:20px
 }
-#source_charles:hover a{
+#source_hypathie:hover a{
     display: inline;
 }
-#source_john{
+#source_georges{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_john:hover{
+#source_georges:hover{
     font-size: medium;
     padding:20px
 }
-#source_john:hover a{
+#source_georges:hover a{
     display: inline;
 }
-#source_hedy{
+#source_jacques{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_hedy:hover{
+#source_jacques:hover{
     font-size: medium;
     padding:20px
 }
-#source_hedy:hover a{
+#source_jacques:hover a{
     display: inline;
 }
-#source_seymour{
+#source_ingrid{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_seymour:hover{
+#source_ingrid:hover{
     font-size: medium;
     padding:20px
 }
-#source_seymour:hover a{
+#source_ingrid:hover a{
     display: inline;
 }
-#source_gordon{
+#source_jocelyne{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_gordon:hover{
+#source_jocelyne:hover{
     font-size: medium;
     padding:20px
 }
-#source_gordon:hover a{
+#source_jocelyne:hover a{
     display: inline;
 }
-#source_hiroshi{
+#source_alonzo{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_hiroshi:hover{
+#source_alonzo:hover{
     font-size: medium;
     padding:20px
 }
-#source_hiroshi:hover a{
+#source_alonzo:hover a{
     display: inline;
 }
 .machines_et_composants{
     position: absolute;
 }
-#charles{
+#hypathie{
     top:27%;
     left:28%;
 }
-#john{
+#georges{
     top:33%;
     left:24%
 }
-#hedy{
+#jacques{
     top:39%;
     left: 20%;
 }
-#seymour{
+#ingrid{
     top:27%;
     right:28%;
 }
-#gordon{
+#jocelyne{
     top:33%;
     right:24%
 }
-#hiroshi{
+#alonzo{
     top:39%;
     right:20%
 }
-#popup_charles {
+#popup_hypathie {
     display: none;
     position: absolute;
     top: 50%;
@@ -154,7 +155,7 @@ body{
     border-radius: 10%;
 }
 
-#popupclose_charles {
+#popupclose_hypathie {
     position: absolute;
     padding: 10px;
     cursor:pointer;
@@ -165,7 +166,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 50%;
 }
-#popup_john {
+#popup_georges{
     display: none;
     position: absolute;
     top: 50%;
@@ -178,7 +179,7 @@ body{
     z-index: 200;
     border-radius: 10%;
 }
-#popupclose_john {
+#popupclose_georges {
     position: absolute;
     float: right;
     padding: 10px;
@@ -191,7 +192,7 @@ body{
     border-radius: 50%;
     position: center center;
 }
-#popup_hedy{
+#popup_jacques{
     display: none;
     position: absolute;
     top: 50%;
@@ -204,7 +205,7 @@ body{
     z-index: 200;
     border-radius: 10%;
 }
-#popupclose_hedy {
+#popupclose_jacques {
     position: absolute;
     float: right;
     padding: 10px;
@@ -217,7 +218,7 @@ body{
     border-radius: 50%;
     position: center center;
 }
-#popup_seymour{
+#popup_ingrid{
     display: none;
     position: absolute;
     top: 50%;
@@ -230,7 +231,7 @@ body{
     z-index: 200;
     border-radius: 10%;
 }
-#popupclose_seymour {
+#popupclose_ingrid {
     position: absolute;
     float: right;
     padding: 10px;
@@ -243,7 +244,7 @@ body{
     border-radius: 50%;
     position: center center;
 }
-#popup_gordon{
+#popup_jocelyne{
     display: none;
     position: absolute;
     top: 50%;
@@ -256,7 +257,7 @@ body{
     z-index: 200;
     border-radius: 10%;
 }
-#popupclose_gordon {
+#popupclose_jocelyne {
     position: absolute;
     float: right;
     padding: 10px;
@@ -269,7 +270,7 @@ body{
     border-radius: 50%;
     position: center center;
 }
-#popup_hiroshi{
+#popup_alonzo{
     display: none;
     position: absolute;
     top: 50%;
@@ -282,7 +283,7 @@ body{
     z-index: 200;
     border-radius: 10%;
 }
-#popupclose_hiroshi {
+#popupclose_alonzo {
     position: absolute;
     float: right;
     padding: 10px;
