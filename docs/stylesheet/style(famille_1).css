@@ -46,7 +46,6 @@ body{
     transition: 0.3s linear;;
 }
 #source_charles:hover{
-    text-align: center;
     font-size: medium;
     padding:20px
 }
@@ -59,11 +58,58 @@ body{
     transition: 0.3s linear;;
 }
 #source_john:hover{
-    text-align: center;
     font-size: medium;
     padding:20px
 }
 #source_john:hover a{
+    display: inline;
+}
+#source_hedy{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+#source_hedy:hover{
+    font-size: medium;
+    padding:20px
+}
+#source_hedy:hover a{
+    display: inline;
+}
+#source_seymour{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+#source_seymour:hover{
+    font-size: medium;
+    padding:20px
+}
+#source_seymour:hover a{
+    display: inline;
+}
+#source_gordon{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+#source_gordon:hover{
+    font-size: medium;
+    padding:20px
+}
+#source_gordon:hover a{
+    display: inline;
+}
+#source_hiroshi{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+#source_hiroshi:hover{
+    font-size: medium;
+    padding:20px
+}
+#source_hiroshi:hover a{
     display: inline;
 }
 .machines_et_composants{
