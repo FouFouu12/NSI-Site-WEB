@@ -6,6 +6,24 @@ body{
     background-attachment: fixed;
     overflow-y:inherit;
 }
+#information{
+    position: absolute;
+    float: right;
+    width: 20px;
+    padding: 10px;
+    cursor:pointer;
+    right:2%;
+    top:3%;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+    position: center center;
+}
+#i{
+    position: relative;
+    left: 8px;
+}
 #retour{
     position: absolute;
     left: 6%;
@@ -43,76 +61,16 @@ body{
 .link{
     display: none;
 }
-#source_hypathie{
+.source{
     font-size: larger;
     text-align: center;
     transition: 0.3s linear;;
 }
-#source_hypathie:hover{
+.source:hover{
     font-size: medium;
-    padding:20px
+    padding:20px;
 }
-#source_hypathie:hover a{
-    display: inline;
-}
-#source_georges{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_georges:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_georges:hover a{
-    display: inline;
-}
-#source_jacques{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_jacques:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_jacques:hover a{
-    display: inline;
-}
-#source_ingrid{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_ingrid:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_ingrid:hover a{
-    display: inline;
-}
-#source_jocelyne{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_jocelyne:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_jocelyne:hover a{
-    display: inline;
-}
-#source_alonzo{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_alonzo:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_alonzo:hover a{
+.source:hover a{
     display: inline;
 }
 .machines_et_composants{
@@ -141,6 +99,32 @@ body{
 #alonzo{
     top: 52%;
     right: 9%
+}
+#popup_information{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+    border-radius: 10%;
+}
+#popupclose_information{
+    position: absolute;
+    float: right;
+    padding: 10px;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
 }
 #popup_hypathie {
     display: none;

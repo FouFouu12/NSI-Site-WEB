@@ -6,6 +6,24 @@ body{
     background-attachment: fixed;
     overflow-y:inherit;
 }
+#information{
+    position: absolute;
+    float: right;
+    width: 20px;
+    padding: 10px;
+    cursor:pointer;
+    right:2%;
+    top:3%;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+    position: center center;
+}
+#i{
+    position: relative;
+    left: 8px;
+}
 #retour{
     position: absolute;
     left: 6%;
@@ -39,80 +57,20 @@ body{
     opacity: 0.8;
     z-index: 100;
 }
+.source{
+    font-size: larger;
+    text-align: center;
+    transition: 0.3s linear;;
+}
+.source:hover{
+    font-size: medium;
+    padding:20px;
+}
+.source:hover a{
+    display: inline;
+}
 .link{
     display: none;
-}
-#source_charles{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_charles:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_charles:hover a{
-    display: inline;
-}
-#source_john{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_john:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_john:hover a{
-    display: inline;
-}
-#source_hedy{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_hedy:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_hedy:hover a{
-    display: inline;
-}
-#source_seymour{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_seymour:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_seymour:hover a{
-    display: inline;
-}
-#source_gordon{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_gordon:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_gordon:hover a{
-    display: inline;
-}
-#source_hiroshi{
-    font-size: larger;
-    text-align: center;
-    transition: 0.3s linear;;
-}
-#source_hiroshi:hover{
-    font-size: medium;
-    padding:20px
-}
-#source_hiroshi:hover a{
-    display: inline;
 }
 .machines_et_composants{
     position: absolute;
@@ -140,6 +98,32 @@ body{
 #hiroshi{
     top:39%;
     right:20%
+}
+#popup_information{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: -250px; 
+    margin-top: -250px; 
+    z-index: 200;
+    border-radius: 10%;
+}
+#popupclose_information{
+    position: absolute;
+    float: right;
+    padding: 10px;
+    cursor:pointer;
+    right:4%;
+    top:3%;
+    font-size: larger;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    position: center center;
 }
 #popup_charles {
     display: none;
@@ -296,3 +280,4 @@ body{
     border-radius: 50%;
     position: center center;
 }
+

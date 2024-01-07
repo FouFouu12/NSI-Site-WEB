@@ -1,4 +1,5 @@
 var overlay = document.getElementById("overlay");
+var information = document.getElementById("information")
 
 var charles = document.getElementById("charles");
 var john = document.getElementById("john");
@@ -7,6 +8,7 @@ var seymour = document.getElementById("seymour");
 var gordon = document.getElementById("gordon");
 var hiroshi = document.getElementById("hiroshi");
 
+var popup_information = document.getElementById("popup_information")
 var popup_charles = document.getElementById("popup_charles");
 var popup_john = document.getElementById("popup_john");
 var popup_hedy = document.getElementById("popup_hedy");
@@ -14,6 +16,7 @@ var popup_seymour = document.getElementById("popup_seymour");
 var popup_gordon = document.getElementById("popup_gordon");
 var popup_hiroshi = document.getElementById("popup_hiroshi");
 
+var closePopup_information = document.getElementById("popupclose_information")
 var closePopup_charles = document.getElementById("popupclose_charles");
 var closePopup_john = document.getElementById("popupclose_john");
 var closePopup_hedy = document.getElementById("popupclose_hedy");
@@ -31,6 +34,12 @@ function showpopup(popup){
     overlay.style.display = "block";
     popup.style.display = "block";
     background.style.filter = "blur(50px)"
+}
+information.onclick = function(){
+    showpopup(popup_information)
+}
+closePopup_information.onclick = function(){
+    closePopup(popup_information)
 }
 charles.onclick = function(){
     showpopup(popup_charles)

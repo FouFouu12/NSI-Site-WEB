@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size:100% 100%;
     background-attachment: fixed;
+    overflow: hidden;
 }
 p{
     text-align: justify;
@@ -14,7 +15,7 @@ p{
 .familles_haut{
     position: relative;
     text-align: center;
-    top: 95px;
+    top: 50px;
 }
 #machines{
     transform: translate(-60px);
@@ -47,7 +48,7 @@ p{
 .familles_bas{
     position: relative;
     text-align: center;
-    top: 100px;
+    top: 55px;
 }
 #interaction{
     transform: translate(-40px);    
@@ -63,7 +64,7 @@ p{
 .turing{
     position: relative;
     text-align: center;
-    top:100px ;
+    top:55px ;
 }
 
 #turing{

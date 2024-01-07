@@ -50,11 +50,12 @@ body{
     display: inline;
 }
 #turing{
+    cursor: pointer;
     position: absolute;
     height: 71px;
     width: 71px;
     top: 42%;
-    left:48%;
+    left: 47.5%;
 }
 
 #popup_turing {

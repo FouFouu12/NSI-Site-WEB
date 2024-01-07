@@ -1,4 +1,5 @@
 var overlay = document.getElementById("overlay");
+var information = document.getElementById("information")
 
 var hypathie = document.getElementById("hypathie");
 var georges = document.getElementById("georges");
@@ -7,6 +8,7 @@ var ingrid = document.getElementById("ingrid");
 var jocelyne = document.getElementById("jocelyne");
 var alonzo = document.getElementById("alonzo");
 
+var popup_information = document.getElementById("popup_information")
 var popup_hypathie = document.getElementById("popup_hypathie");
 var popup_georges = document.getElementById("popup_georges");
 var popup_jacques = document.getElementById("popup_jacques");
@@ -14,6 +16,7 @@ var popup_ingrid = document.getElementById("popup_ingrid");
 var popup_jocelyne = document.getElementById("popup_jocelyne");
 var popup_alonzo = document.getElementById("popup_alonzo");
 
+var closePopup_information = document.getElementById("popupclose_information")
 var closePopup_hypathie = document.getElementById("popupclose_hypathie");
 var closePopup_georges = document.getElementById("popupclose_georges");
 var closePopup_jacques = document.getElementById("popupclose_jacques");
@@ -31,6 +34,12 @@ function showpopup(popup){
     overlay.style.display = "block";
     popup.style.display = "block";
     background.style.filter = "blur(50px)"
+}
+information.onclick = function(){
+    showpopup(popup_information)
+}
+closePopup_information.onclick = function(){
+    closePopup(popup_information)
 }
 hypathie.onclick = function(){
     showpopup(popup_hypathie)
